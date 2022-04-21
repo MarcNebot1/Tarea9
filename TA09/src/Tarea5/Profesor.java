@@ -8,7 +8,7 @@ public class Profesor extends Persona {
 private String materia;
 
 public Profesor(String nombre, int edad, boolean sexo) {
-	super();
+	super(nombre, edad, sexo);
 }
 
 public boolean setMateria(String materia) {

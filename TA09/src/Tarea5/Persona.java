@@ -16,5 +16,5 @@ public abstract class Persona {
 	
 	// Métodos
 	// En cada clase actuará de forma diferente (Polimorfismo)
-	public boolean asistencia();
+	public abstract boolean asistencia();
 }
